@@ -4,3 +4,7 @@
 
 SELECT NAME, LASTNAME, EMAIL FROM CUSTOMERS 
     WHERE STATE = 'SP';
+
+-- Search only customers that have made 2 or more locations 
+
+SELECT * FROM LOCATIONS 
