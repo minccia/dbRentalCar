@@ -1,0 +1,6 @@
+-- SQLite
+
+-- Alter EMPLOYEES table column name from "PHONE" to "PHONE_NUMBER"
+
+ALTER TABLE EMPLOYEES 
+    RENAME COLUMN PHONE TO PHONE_NUMBER;
